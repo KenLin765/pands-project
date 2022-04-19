@@ -7,29 +7,13 @@ This is my analysis into the [Fisher's Iris Data Set](http://archive.ics.uci.edu
 
 ## What is the Data Set?
 
-# Brief History 
+# Overview on Dataset
 
-The Iris Dataset contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). These measures were used to create a linear discriminant model to classify the species. The dataset is often used in data mining, classification and clustering examples and to test algorithms.[1]
+The Iris Dataset contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). These measures were used to create a linear discriminant model to classify the species. The dataset is often used in data mining, classification and clustering examples and to test algorithms.
 
-
-The first main study was by Edgar Anderson whom collected data on 3 different irise species on the Gaspé Peninsula, Quebec, Canada. Anderson collected the data in a journal which is called The Irises of the Gaspe Peninsula which was published in October 1935. This data was the start of the analyis data sets. Fisher has cited the "Iris versicolor and Iris virginica were chosen for such a
-study since they customarily grow in colonies containing many individual plants ; a peculiarity which facilitates the location and study of large numbers of individuals." [2] 
-
-Ronald Fisher would then build on the research completed by Anderson. Fisher used
-Anderson’s data to see if linear regression could be used to could be used to “maximize the ratio of the
-difference between the specific means to the standard deviations within species.” [3]
-
-
-# UCI Definition of the data:
-
-This is perhaps the best known database to be found in the pattern recognition literature. Fisher's paper is a classic in the field and is referenced frequently to this day. The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other.
+This is perhaps the best known database to be found in the pattern recognition literature. Fisher's paper is a classic in the field and is referenced frequently to this day. The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. [1]
 
 Predicted attribute: class of iris plant.
-
-This is an exceedingly simple domain.
-
-This data differs from the data presented in Fishers article (identified by Steve Chadwick, spchadwick '@' espeedaz.net ). The 35th sample should be: 4.9,3.1,1.5,0.2,"Iris-setosa" where the error is in the fourth feature. The 38th sample: 4.9,3.6,1.4,0.1,"Iris-setosa" where the errors are in the second and third features.
-
 
 Attribute Information:
 
@@ -42,13 +26,35 @@ Attribute Information:
 -- Iris Versicolour
 -- Iris Virginica
 
+## Brief History
+
+The first main study was by Edgar Anderson whom collected data on 3 different irise species on the Gaspé Peninsula, Quebec, Canada. Anderson collected the data in a journal which is called The Irises of the Gaspe Peninsula which was published in October 1935. This data was the start of the analyis data sets. Fisher has cited the "Iris versicolor and Iris virginica were chosen for such a
+study since they customarily grow in colonies containing many individual plants ; a peculiarity which facilitates the location and study of large numbers of individuals." [2] 
+
+Ronald Fisher would then build on the research completed by Anderson. Fisher used
+Anderson’s data to see if linear regression could be used to could be used to “maximize the ratio of the
+difference between the specific means to the standard deviations within species.” [3]
 
 
 
 
+## Data Set Analysis
+
+I firstly have added IRIS.csv to the repository as this is the raw data used.
+
+I also added a version of the same file in a read me file in order to view the raw data. Please see link to data here - (https://github.com/KenLin765/pands-project/blob/main/iris.md)
+
+A link to the dataset can also be found here - https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+
+
+This data is separated into 5 main columns with the data included. These headings are sepal_length,  sepal_width, petal_length, petal_width, and species.
 
 
 
+
+## Iris Dataset Data Analysis
+
+Please see link to code used here ()
 
 
 
