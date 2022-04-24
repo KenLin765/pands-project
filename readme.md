@@ -75,11 +75,36 @@ Exploratory data analysis can help to improve the results of statistical hypothe
 Please see link to code used here (https://github.com/KenLin765/pands-project/blob/main/analysis.py)
 
 
-In reviewing many different sources online, such as Mittapaldi, 2018[5] Carpenter, 2021[6], many different people have first described the dataset and general information around the dataset using Pandas. 
+## Investigating data set using dataframe 
 
-I firstly read in the data of the iris.csv file and used pandas to describe the data. Pandas allows us to see that the dataset is comprised of 150 rows and 5 columns. It also allow us to see stats such as a count of the data, mean, median and mode. This describes the dataset at a very high level.
+In reviewing many different sources online, such as Mittapaldi, 2018[5] Carpenter, 2020[6], many different people have first described the dataset and general information around the dataset using Pandas. 
+
+I firstly read in the data of the iris.csv file and used pandas to describe the data. The file is located in the same folder as my python file. Pandas allows us to see that the dataset is comprised of 150 rows and 5 columns. It also allow us to see stats such as a count of the data, mean, median and mode. This describes the dataset at a very high level. These could also be described individually with iris.mean() or iris.min()
+
+The main findings are as follows:
+
+*There are 150 rows and 5 columns of data.
+
+*On the table we see the column headers of, Length of the sepal, the length of the petal, the width of the sepal and the width of the petal which is recorded in centimetres.
+
+*All forms of measurement such as the mean, of the Sepal length is greater than the mean of the other three values in the column.
+
+*Petal width has the lowest average value of all the measurements.
+
+*The smallest petal is 1 cm, the longest petal is 6.9 cm.
+
+*The widths of the petals vary between 0.1 cm to 2.5 cm.
+
+*The smallest sepal in the data set is 4.3 cm, the longest sepal is 7.9 cm.
+
+*The narrowest sepal is 2cm, the widest sepal is 4.4 centimetres.
 
 ![Describe Screenshot](https://github.com/KenLin765/pands-project/blob/main/iris_describe.png)
+
+
+I then ran the data.info dataframe. This provided us with some summary statistics about the Iris dataset. 
+
+
 
 I then used the head and the tail built in data functions in pandas to print this infomation. This is useful for quickly testing if your object has the right type of data in it.
 
