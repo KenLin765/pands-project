@@ -75,6 +75,13 @@ Exploratory data analysis can help to improve the results of statistical hypothe
 Please see link to code used here (https://github.com/KenLin765/pands-project/blob/main/analysis.py)
 
 
+In reviewing many different sources online, such as Mittapaldi, 2018[5] Carpenter, 2021[6], many different people have first described the dataset and general information around the dataset using Pandas. 
+
+I firstly read in the data of the iris.csv file and used pandas to describe the data. Pandas allows us to see that the dataset is comprised of 150 rows and 5 columns. It also allow us to see stats such as a count of the data, mean, median and mode. This describes the dataset at a very high level.
+
+![Describe Screenshot](https://github.com/KenLin765/pands-project/blob/main/iris_describe.png)
+
+I then used the head and the tail built in data functions in pandas to print this infomation. This is useful for quickly testing if your object has the right type of data in it.
 
 
 
@@ -89,3 +96,7 @@ the American Iris society 59 (1935), 2–5 - https://wiki.irises.org/pub/Hist/In
 The Use of Multiple Measurements in Taxonomic Problems, Annals of Eugenics 7 (1936), no. 2, 179–188. - http://syllabus.cs.manchester.ac.uk/pgt/2021/COMP61021/reference/Fisher-DA.pdf
 
 [4] John Tukey, Exploratory Data Analysis http://theta.edu.pl/wp-content/uploads/2012/10/exploratorydataanalysis_tukey.pdf
+
+[5] Hari Mittapalli, Exploratory Data Analysis : Iris DataSet - https://medium.com/@harimittapalli/exploratory-data-analysis-iris-dataset-9920ea439a3e
+
+[6] Angela Carpenter, Investigating the Iris dataset - https://www.angela1c.com/projects/iris_project/investigating-the-iris-dataset/
