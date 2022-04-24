@@ -54,7 +54,26 @@ This data is separated into 5 main columns with the data included. These heading
 
 ## Iris Dataset Data Analysis
 
-Please see link to code used here ()
+I will be using exploratory data analysis(EDA) alongside Python to investigate the dataset. 
+
+John Tukey has defined EDA as the following; 
+
+The term “Exploratory Data Analysis” was introduced by John W. Tukey who shows how simple graphical and quantitative techniques can be used to open-mindedly explore data.
+
+Typical graphical techniques are
+1. Plotting the raw data (e.g., stem-and-leaf diagrams, histograms, scatter plots)
+2. Plotting simple statistics (e.g., mean plots, box plots, residual plots)
+3. Positioning (multiple) plots to amplify cognition
+
+Typical quantitative techniques are
+1. Interval estimation
+2. Measures of location or of scale
+3. Shapes of distributions
+
+Exploratory data analysis can help to improve the results of statistical hypothesis testing. [4]
+
+Please see link to code used here (https://github.com/KenLin765/pands-project/blob/main/analysis.py)
+
 
 
 
@@ -68,3 +87,5 @@ the American Iris society 59 (1935), 2–5 - https://wiki.irises.org/pub/Hist/In
 
 [3] Ronald A Fisher,
 The Use of Multiple Measurements in Taxonomic Problems, Annals of Eugenics 7 (1936), no. 2, 179–188. - http://syllabus.cs.manchester.ac.uk/pgt/2021/COMP61021/reference/Fisher-DA.pdf
+
+[4] John Tukey, Exploratory Data Analysis http://theta.edu.pl/wp-content/uploads/2012/10/exploratorydataanalysis_tukey.pdf
