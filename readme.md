@@ -102,11 +102,28 @@ The main findings are as follows:
 ![Describe Screenshot](https://github.com/KenLin765/pands-project/blob/main/iris_describe.png)
 
 
-I then ran the data.info dataframe. This provided us with some summary statistics about the Iris dataset. 
 
+I then ran the info dataframe which us with a bit more information on the dataset.
 
+The main findings are as follows:
 
-I then used the head and the tail built in data functions in pandas to print this infomation. This is useful for quickly testing if your object has the right type of data in it.
+*There are 150 entries within the range index
+
+*This indicates there are 5 columns
+
+*These columns consist of number, Column(name), Non-Null, Count and Dtype
+
+*# is used as a count to show number of entry
+
+*Column defines the values which are sepal.length, sepal.width, petal.length, petal.width and variety
+
+*Non-Null instructs a column to not accept null values
+
+*The Range-Index has 150 entries from 0 to 149
+
+*The four measurement columns each consist of 149 non-null float64 numbers with the last one being an object datatype that contains the species names.
+
+![Describe Screenshot](https://github.com/KenLin765/pands-project/blob/main/iris_info.png)
 
 
 
