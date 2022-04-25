@@ -99,7 +99,7 @@ The main findings are as follows:
 
 *The narrowest sepal is 2cm, the widest sepal is 4.4 centimetres.
 
-![Describe Screenshot](https://github.com/KenLin765/pands-project/blob/main/iris_describe.png)
+![Iris Describe](https://github.com/KenLin765/pands-project/blob/main/iris_describe.png)
 
 
 
@@ -123,10 +123,12 @@ The main findings are as follows:
 
 *The four measurement columns each consist of 149 non-null float64 numbers with the last one being an object datatype that contains the species names.
 
-![Describe Screenshot](https://github.com/KenLin765/pands-project/blob/main/iris_info.png)
+![Iris Info](https://github.com/KenLin765/pands-project/blob/main/iris_info.png)
 
 
+I then ran the data.head and data.tail Pandas as this gives quick observations of the data displayed.
 
+![Describe Screenshot](![Iris Head](https://github.com/KenLin765/pands-project/blob/main/Iris_head.png)
 
 References Used
 [1] UCI Machine Learning Repository - Iris dataset - https://archive.ics.uci.edu/ml/datasets/iris
