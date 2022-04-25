@@ -128,7 +128,26 @@ The main findings are as follows:
 
 I then ran the data.head and data.tail Pandas as this gives quick observations of the data displayed.
 
-![Describe Screenshot](![Iris Head](https://github.com/KenLin765/pands-project/blob/main/Iris_head.png)
+The rows at the top belong to the Iris Setosa class, the data is ordered in this way when you download the csv file.
+
+![Iris Head](https://github.com/KenLin765/pands-project/blob/main/Iris_head.png)
+
+
+
+## Plotting the Data
+
+I am firstly plotting the data using histograms. The histograms show the distribution of each of the measurement attributes across the iris data set. I used the the matplotlib - pyplot package to create the histogram. I then also used [scikit](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html), to help plot the data as this software included inbuilt data which makes it useful to plot the data. It would also be possible to plot each data separately but I decided to include all data in one. The data for the user will then display in a .png file format.
+
+The main findings based on this data are that the sepal length for the most part is about double the size of the sepal width while the petal length is also approximately 2 and a half times the size in cm of the petal width. 
+
+*The Highest frequency of sepal width is between 3.0 to 3.5.
+*The Highest frequency of sepal length is between 5.5 and 6.5.
+*The Highest frequency of petal width is more changable than the others and spikes at 0 and 1.5
+*The Highest frequency of petal length is between 0 to 0.5.
+
+![Iris Histogram](https://github.com/KenLin765/pands-project/blob/main/IrisHistogram.png)
+
+
 
 References Used
 [1] UCI Machine Learning Repository - Iris dataset - https://archive.ics.uci.edu/ml/datasets/iris
