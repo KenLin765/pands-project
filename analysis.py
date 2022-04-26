@@ -53,4 +53,17 @@ fig.suptitle("Iris Histograms")
 
 plt.savefig('IrisHistogram.png', bbox_inches="tight")
 #Plots the figure into a histogram for the user
-#I found the x Column was clashing with column on lower table and added in bbox-inches to prevent - https://matplotlib.org/3.5.0/tutorials/intermediate/tight_layout_guide.html
+#I found the x Column was clashing with column on lower table and added in bbox-inches to prevent - https://matplotlib.org/3.5.0/tutorials/intermediate/tight_layout_guide.html#
+
+
+#3. Scatterplot of the Iris Data Set
+
+#I used this as the basis for my solution - https://seaborn.pydata.org/examples/scatterplot_matrix.html
+sns.set_theme(style="whitegrid")
+#There are 5 inbuilt seaborn types, I decided to use "whitegrid" as I thought it looked best for solution = https://seaborn.pydata.org/tutorial/aesthetics.html
+df = sns.load_dataset("iris")
+#Iris has an inbuilt dataset for Iris
+sns.pairplot(df, hue="species")
+#I used the default here on code as it seemed to be the best, also
+plt.savefig('IrisScatterplot.png')
+#This then gets output to the user.
