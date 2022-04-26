@@ -66,4 +66,25 @@ df = sns.load_dataset("iris")
 sns.pairplot(df, hue="species")
 #I used the default here on code as it seemed to be the best, also
 plt.savefig('IrisScatterplot.png')
-#This then gets output to the user.
+#This then gets output to the user, it is currently saving in same folder as I have my code in.
+
+
+#4. Correlation Methods to be used.
+
+#Solution I am using is adapted from this example - https://www.geeksforgeeks.org/python-pandas-dataframe-corr/
+
+# To find the correlation among the columns using pearson method
+print("Pearson Method")
+print(df.corr(method ='pearson'))
+print("")
+#Added to put a space between the data
+
+# To find the correlation among the columns using pearson method
+print("Kendall Method")
+print(df.corr(method ='kendall'))
+print("")
+
+# To find the correlation among the columns using pearson method
+print("Spearman Method")
+print(df.corr(method ='spearman'))
+print("")

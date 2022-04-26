@@ -161,7 +161,33 @@ I have decided to use [seaborn](https://seaborn.pydata.org/generated/seaborn.sca
 
 *Versicolor and Virginica are both very similiar in length, with virginica being slightly bigger in terms of petal length and petal width. The sepal length/width more corresponds together than the petal length/width
 
+![Iris Histogram](https://github.com/KenLin765/pands-project/blob/main/IrisScatterplot.png)
 
+
+
+## Correlation
+
+The scatterplot above showed that there maybe a relationship between petal length and petal width. Correlation is a measure of the linear relationship between to variables. There are three types of correlation. They are:
+
+Pearson Correlation
+Spearman’s Rank Correlation
+Kendal’s Tau Correlation
+[8]
+
+I have adapted the code based on [GeekforGeeks](https://www.geeksforgeeks.org/python-pandas-dataframe-corr/) which provided very detailed libraries for data analysis. Pandas has an inbuilt library that makes analysising the correlations quite handy.
+
+# Results Findings
+
+* Petal length and petal width are very closely correlated. Across the 3 methods they range between 0.806 and 0.962
+
+* Sepal length and sepal width are the complete opposite, between -0.076 and -0.166 across the measurements, which shows how uncorrelated they are together.
+
+* The correlation of petal length and sepal length is also very strong, ranging between 0.718 and 0.881 across the 3 methods.
+
+* Whereas petal width and sepal length are also very uncorrelated, ranging between -0.366 and -0.157.
+
+
+![Correlation Screenshot](https://github.com/KenLin765/pands-project/blob/main/CorrelationMethods.png)
 
 
 
@@ -182,3 +208,5 @@ The Use of Multiple Measurements in Taxonomic Problems, Annals of Eugenics 7 (19
 [6] Angela Carpenter, Investigating the Iris dataset - https://www.angela1c.com/projects/iris_project/investigating-the-iris-dataset/
 
 [7] Venmani A D, Python Scatter Plot - https://www.machinelearningplus.com/plots/python-scatter-plot/
+
+[8] Rajesh Sigdel,Understanding Correlation - http://rstudio-pubs-static.s3.amazonaws.com/563805_9f01474995604c3ebdbd7588d026b2bc.html
