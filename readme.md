@@ -136,7 +136,9 @@ The rows at the top belong to the Iris Setosa class, the data is ordered in this
 
 ## Plotting the Data
 
-I am firstly plotting the data using histograms. The histograms show the distribution of each of the measurement attributes across the iris data set. I used the the matplotlib - pyplot package to create the histogram. I then also used [scikit](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html), to help plot the data as this software included inbuilt data which makes it useful to plot the data. It would also be possible to plot each data separately but I decided to include all data in one. The data for the user will then display in a .png file format.
+I am firstly plotting the data using histograms. The histograms show the distribution of each of the measurement attributes across the iris data set. I used the the matplotlib - pyplot package to create the histogram. I then also used [scikit](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html), to help plot the data as this software included inbuilt data which makes it useful to plot the data. I decided to use the inbuilt library to get a bit more experience using a different library. It would also be possible to plot each data separately but I decided to include all data in one. The data for the user will then display in a .png file format.
+
+# Result Findings
 
 The main findings based on this data are that the sepal length for the most part is about double the size of the sepal width while the petal length is also approximately 2 and a half times the size in cm of the petal width. 
 
@@ -146,6 +148,21 @@ The main findings based on this data are that the sepal length for the most part
 *The Highest frequency of petal length is between 0 to 0.5.
 
 ![Iris Histogram](https://github.com/KenLin765/pands-project/blob/main/IrisHistogram.png)
+
+
+
+## Plotting the Data with a Scatterplot
+
+I have decided to use [seaborn](https://seaborn.pydata.org/generated/seaborn.scatterplot.html) to plot the scatterplot. Scatter plot is a graph in which the values of two variables are plotted along two axes. It is a most basic type of plot that helps you visualize the relationship between two variables.
+
+# Result Findings
+
+*The first key thing I noticed is that setosa seems to have it's own unique relationship in comparison to versicolor and virginica, especially in sepal width and sepal length in comparison to the others as they are smaller.
+
+*Versicolor and Virginica are both very similiar in length, with virginica being slightly bigger in terms of petal length and petal width. The sepal length/width more corresponds together than the petal length/width
+
+
+
 
 
 
@@ -163,3 +180,5 @@ The Use of Multiple Measurements in Taxonomic Problems, Annals of Eugenics 7 (19
 [5] Hari Mittapalli, Exploratory Data Analysis : Iris DataSet - https://medium.com/@harimittapalli/exploratory-data-analysis-iris-dataset-9920ea439a3e
 
 [6] Angela Carpenter, Investigating the Iris dataset - https://www.angela1c.com/projects/iris_project/investigating-the-iris-dataset/
+
+[7] Venmani A D, Python Scatter Plot - https://www.machinelearningplus.com/plots/python-scatter-plot/
