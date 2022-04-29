@@ -161,6 +161,8 @@ I have decided to use [seaborn](https://seaborn.pydata.org/generated/seaborn.sca
 
 *Versicolor and Virginica are both very similiar in length, with virginica being slightly bigger in terms of petal length and petal width. The sepal length/width more corresponds together than the petal length/width
 
+* Based on the data, iris virginica is the longest flower and iris setosa is the shortest.
+
 ![Iris Histogram](https://github.com/KenLin765/pands-project/blob/main/IrisScatterplot.png)
 
 
@@ -190,6 +192,16 @@ I have adapted the code based on [GeekforGeeks](https://www.geeksforgeeks.org/py
 ![Correlation Screenshot](https://github.com/KenLin765/pands-project/blob/main/CorrelationMethods.png)
 
 
+## Conclusions
+The exploratory data analysis in this investigation gave many interesting details about the iris dataset but the main points of note are:
+
+* Iris setosa is linearly distinguishable from both iris versicolor and virginica.
+If measurements are presented of an iris with short, narrow petals and short but wide sepals, it could be reliably predicted that the particular species is setosa.
+
+
+* Versicolor and virginica are not very distinguishable from one another in terms of sepal measurements, virginica irises seem more likely to have longer, wider petals than versicolor but are harder to diffrentiate in comparison to iris setosa.
+
+* In terms of the dataset it is equally balanced, as the three Iris's all have equal records
 
 
 References Used
